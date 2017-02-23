@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+</head>
+
+<script type="text/javascript" charset="utf-8">
+	document.addEventListener("deviceready", onDeviceReady, true);
+	function onDeviceReady() {
+	   window.open('http://www.alternativa.co.jp', '_self ', 'location=no,toolbar=no');
+	}
+</script>
+
+<script>
+ window.onscroll = function (){
+	if(window.pageYOffset > 200){
+	$('.navbar-default').addClass('navbar-fixed-top');
+}
+else{ $('.navbar-default').removeClass('navbar-fixed-top');}
+};
+</script>
+
+<script type="text/javascript" src="cordova.js"></script>
+               
+<body>
+</body>
+</html>
