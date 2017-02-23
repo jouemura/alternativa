@@ -8,6 +8,7 @@
         version   = "1.0.0">
 
     <preference name="stay-in-webview" value="true" />
+    <preference  name="phonegap-version"  value= "3.7.0"  />
 
     <access origin="*" browserOnly="true" subdomains="true" />
 
@@ -15,8 +16,8 @@
     <allow-navigation href="*" />
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" version="~1" />
-    <gap:plugin name="org.apache.cordova.inappbrowser"></gap:plugin>
-    <gap:plugin name="org.apache.cordova.splashscreen"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+    <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
 
     <preference name="phonegap-version"           value="cli-5.4.1" />
     <preference name="permissions"                value="none"/>
